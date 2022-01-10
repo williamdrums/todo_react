@@ -1,11 +1,13 @@
 import React from "react";
 import Navbar from "./Navbar";
+import TodoList from "./TodoList";
 
 const App = () => {
   return (
-  <div>
-      <h1>Meu primeiro App React</h1>
-      <Navbar></Navbar>
+  <div className="uk-container">
+    <Navbar></Navbar>
+    <TodoList></TodoList>
+      
   </div>
   );
 }
